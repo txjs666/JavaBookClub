@@ -18,6 +18,13 @@
     8. [JAVA编程思想（第四版）答案](https://pan.baidu.com/s/1SiN9nJ8RowhuKoU6iL3xUQ)--jeng
 
 ### 并发编程
+  - `下载`
+    1. [Java并发编程的艺术](https://pan.baidu.com/s/1Zcb3n2tRmM5xxEPSuwX9Hw)--vpcn
+    2. [Java并发编程之美](https://pan.baidu.com/s/1pZzS_79EgTfqFQT170apZQ)--bhi7
+    3. [Java高并发编程详解-多线程与架构设计-汪文君](https://pan.baidu.com/s/1iI9KOM6LBtKsu8XbHuPc5w)--7u76
+    4. [JAVA并发编程实践](https://pan.baidu.com/s/1obqs4CjfTlK1Pt3aGUmz-g)--pjd7
+    5. [实战Java高并发程序设计](https://pan.baidu.com/s/1S7HhCbrfTtcj6ADf-8WEEw)--kxeg
+    6. [java并发编程实战](https://pan.baidu.com/s/1pnAW9Q1XJr9ZMmjPYGmHNQ)--m5jp
 ### JVM
   - `下载`
     1. [深入理解Java虚拟机 JVM高级特性与最佳实践](https://pan.baidu.com/s/1G1C8w-ni74fYElMcxQpxfQ)--ia2c
@@ -50,6 +57,8 @@
     1. [图解TCPIP(第5版).乌尼日其其格.扫描版](https://pan.baidu.com/s/1NE108QYOCoHKiTGK13syaQ)--e3tb
     2. [Http权威指南](https://pan.baidu.com/s/19NuptLCYXjZ7tmWhefjAFQ)--jjk6
 ### Netty
+  - `下载`
+    1. [Netty权威指南带目录完整版](https://pan.baidu.com/s/1ceKIHhtLkalZxabvInATvQ) --futx
 ### Tomcat
 ### Mysql
   - `链接`
@@ -57,6 +66,7 @@
     2. [MySQL索引背后的数据结构及算法原理](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
   - `下载`
     1. [深入浅出MySQL++数据库开发、优化与管理维护+第2版+唐汉明](https://pan.baidu.com/s/1kmHLF7LIq2lWX8B1UqxTqw)--xqa2
+    2. [高性能mysql第三版](https://pan.baidu.com/s/1uSlLPEpHIRpymWzhgxc0HA)--ysmb
 ### Nginx
   - `官网`
     http://nginx.org/en/
@@ -72,6 +82,8 @@
 ## 架构演进
   - `链接`
     1. [走向分布式](http://dcaoyuan.github.io/papers/pdfs/Scalability.pdf)
+  - `下载`
+    1. [大型网站技术架构：核心原理与案例分析](https://pan.baidu.com/s/1FOhnzyZa7qCidKB7U3Fsuw)--tmtw
 
 ## 上古单体架构
 ### Servlet
@@ -79,9 +91,12 @@
     1. [Java Servlet 3.1 规范](https://waylau.gitbooks.io/servlet-3-1-specification/)
   - `下载`
     1. [Head First Servlet and JSP(高清中文)](https://pan.baidu.com/s/1_WvesCNS1QdhCNtln2fmwQ)--4eg4
+    2. [大型网站系统与JAVA中间件实践](https://pan.baidu.com/s/1-USEoonQ402T-beArghryQ)--tcbs
 ### Hibernate
 ### Struts2
 ### Spring
+  - `下载`
+    1.[Spring源码深度解析（第2版）](https://pan.baidu.com/s/185E2CbtZamp77uDHZ8yNCw)--nkax
 ### SpringMVC
 ### Mybatis
   - `链接`
@@ -92,12 +107,15 @@
 ### Zookeeper
 ### 消息中间件
 ### Redis
-- `源码`
-  1. [Redis3.0源码注释版](https://github.com/huangz1990/redis-3.0-annotated)
-  2. [Redie2.6源码注释版](https://github.com/huangz1990/annotated_redis_source)
-- `链接`
-  1. [Redis设计实现](http://redisbook.com/)
-  2. [Redis命令参考](http://redisdoc.com/)
+  - `源码`
+    1. [Redis3.0源码注释版](https://github.com/huangz1990/redis-3.0-annotated)
+    2. [Redie2.6源码注释版](https://github.com/huangz1990/annotated_redis_source)
+  - `链接`
+    1. [Redis设计实现](http://redisbook.com/)
+    2. [Redis命令参考](http://redisdoc.com/)
+  - `下载`
+    1. [redis设计与实现(第二版)](https://pan.baidu.com/s/18ovexBIqwbZoJZQrW_YyYg)--y2zx
+    2. [Redis实战](https://pan.baidu.com/s/1TDi1_qj4DCkmNiZjNqbuyw)--a6y3
   
 ### MongoDB
 ### Mycat
@@ -105,7 +123,11 @@
 
 
 ## 微服务纪元
-### Spring Cloud Netflix
+### Spring Cloud
+  - `下载`
+    1. [Spring Cloud微服务实战_PDF电子书下载 高清 带索引书签目录_翟永超(著)](https://pan.baidu.com/s/1D18zN-yXRdnou32JCA0Lug)--x26b
+    2. [Spring Cloud微服务全栈技术与案例解析](https://pan.baidu.com/s/1NqxivqeuhSVn863oUtYW7Q)--g8ad
+    3. [深入理解Spring Cloud与微服务构建](https://pan.baidu.com/s/1g40QbkT5JLfYlfXIoIeeZw)--iu64
 ### Spring Cloud Alibaba
 
 ## 云原生前沿
@@ -113,7 +135,9 @@
 
 ## DevOps
 ### Maven
-### git
+### Git
+  - `下载`
+    1. [Git的常用命令](https://pan.baidu.com/s/1AkSGxineUkhghDBFc3rvQQ)--3mx9
 ### Jenkins
 ### Docker
   -  `链接`
@@ -137,4 +161,4 @@
     **************
 说明：
     此处资源均来自网络或者读者分享，如果您发现对你的权益造成伤害，请第一时间联系作者(微信：wt0501171x)，我会第一时间进行删除。
-    8888888888888888888888888888888888888888888888888888888888888888888888888888
+    <br/>java架构交流群(957575865) java求职招聘群(676573778) 欢迎大家一起前来交流学习~
