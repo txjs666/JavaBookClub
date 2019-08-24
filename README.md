@@ -1,5 +1,5 @@
 # JavaLibrary
-本藏馆主要珍藏Java体系核心技术书籍：<br/>涵盖 [Java核心基石](#java核心基石)（Java技术基本功，并发编程，JVM）Java董事会成员（设计模式，linux内核，TCP/IP协议，Netty，Tomcat，Mysql） 架构演进 上古单体架构 分布式朝代 微服务纪元 云原生前沿  DevOps 软件工程思想 编码艺术
+本藏馆主要珍藏Java体系核心技术书籍：<br/>涵盖 [Java核心基石](#java核心基石)（[Java技术基本功](#Java技术基本功)，[并发编程](#并发编程)，[JVM](#jvm)）[Java董事会](#java董事会)（[设计模式](#设计模式)，[linux内核](#操作系统（主linux）)，[TCP/IP协议](#重要协议(Http、TCP/IP))，[Netty](#netty)，[Tomcat](#tomcat)，[Mysql](#mysql)） [架构演进](#架构演进) [上古单体架构](#上古单体架构) [分布式朝代](#分布式朝代) [微服务纪元](#微服务纪元) [云原生前沿](#云原生前沿)  [DevOps](#devops) [软件工程思想](#软件工程思想) [编码艺术](#编码艺术)
 
 ## Java核心基石
 ### java技术基本功
@@ -17,7 +17,7 @@
   - `下载`
     1. [深入理解Java虚拟机 JVM高级特性与最佳实践](https://pan.baidu.com/s/1G1C8w-ni74fYElMcxQpxfQ)--ia2c
 
-## Java董事会成员
+## Java董事会
 ### 设计模式
   - `链接`
     1. [图说设计模式](http://design-patterns.readthedocs.org/zh_CN/latest/index.html)
