@@ -5,7 +5,7 @@
 ## Java核心基石
 ### java技术基本功
   - `下载`
-    1. [Head First 面向对象分析与设计](https://pan.baidu.com/s/1SmGMQqZngAGWHp0LMg_wew)
+    1. [Head First 面向对象分析与设计](https://pan.baidu.com/s/1IdFphvYSW4fbj3anRwk_5Q)--xim9
 ### 并发编程
 ### JVM
   - `下载`
@@ -17,18 +17,18 @@
     1. [图说设计模式](http://design-patterns.readthedocs.org/zh_CN/latest/index.html)
     2. [设计模式Java版](https://quanke.gitbooks.io/design-pattern-java/content/)
   - `下载`
-    1. [研磨设计模式](https://pan.baidu.com/s/1X4OZFxj293_yibxoC32jEA) 
+    1. [研磨设计模式](https://pan.baidu.com/s/1FLMe_I73teSojtxlU6wx3A)--b3kh
 ### 网络
   - `下载`
-    1. [JSJWL计算机网络-自顶向下方法V6OCR-P565](https://pan.baidu.com/s/1ND9TYpgNsKOI1jS0w5zfLQ)
+    1. [JSJWL计算机网络-自顶向下方法V6OCR-P565](https://pan.baidu.com/s/1pCPNpXcrWr-2hxO-qVO-uA)--1cmi
 ### 操作系统（主Linux）
   - `下载`
     1. [现代操作系统第三版英文](https://pan.baidu.com/s/1TZsyE45GTi68PmgYRLnrJw)--ekv2
     2. [鸟哥的LINUX私房菜：服务器架设篇 （第二版）](https://pan.baidu.com/s/1Mwlu12jYatrT_EGnjPfUNg)
 ### 重要协议(Http、TCP/IP)
   - `下载`
-    1.[图解TCPIP(第5版).乌尼日其其格.扫描版](https://pan.baidu.com/s/1rPnpSqAwv6CaNha54mFnHQ)
-    2.[Http权威指南](https://pan.baidu.com/s/19NuptLCYXjZ7tmWhefjAFQ)--jjk6
+    1. [图解TCPIP(第5版).乌尼日其其格.扫描版](https://pan.baidu.com/s/1NE108QYOCoHKiTGK13syaQ)--e3tb
+    2. [Http权威指南](https://pan.baidu.com/s/19NuptLCYXjZ7tmWhefjAFQ)--jjk6
 ### Netty
 ### Tomcat
 ### Mysql
@@ -97,7 +97,7 @@
 
 ## 软件工程思想
   - `下载`
-    1. [敏捷软件开发：原则、模式与实践](https://pan.baidu.com/s/1v-QPlYOYTTptKtZDJk1c4w)
+    1. [敏捷软件开发：原则、模式与实践](https://pan.baidu.com/s/1pdHIzBuvWcl5Knk3pKOOCg)--g56i
 ### 编程艺术
   - `下载`
     1. [人月神话](https://pan.baidu.com/s/1aqovbAXJ26LDlujcnPiDvA)--q28j
