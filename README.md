@@ -1,5 +1,6 @@
 # JavaLibrary
-本藏馆主要珍藏Java体系核心技术书籍：涵盖Java核心基石（Java技术基本功，并发编程，JVM）Java董事会成员（设计模式，linux内核，TCP/IP协议，Netty，Tomcat，Mysql） 架构演进 上古单体架构 分布式朝代 微服务纪元 云原生前沿  DevOps 软件工程思想 编程艺术
+本藏馆主要珍藏Java体系核心技术书籍：
+  涵盖Java核心基石（Java技术基本功，并发编程，JVM）Java董事会成员（设计模式，linux内核，TCP/IP协议，Netty，Tomcat，Mysql） 架构演进 上古单体架构 分布式朝代 微服务纪元 云原生前沿  DevOps 软件工程思想 编程艺术
 
 ## Java核心基石
 ### java技术基本功
@@ -12,22 +13,22 @@
 
 ## Java董事会成员
 ### 设计模式
-  -`链接`
+  - `链接`
     1. [图说设计模式](http://design-patterns.readthedocs.org/zh_CN/latest/index.html)
     2. [设计模式Java版](https://quanke.gitbooks.io/design-pattern-java/content/)
-  -`下载`
+  - `下载`
     1. [研磨设计模式](https://pan.baidu.com/s/1X4OZFxj293_yibxoC32jEA) 
 ### 网络
   - `下载`
     1. [JSJWL计算机网络-自顶向下方法V6OCR-P565](https://pan.baidu.com/s/1ND9TYpgNsKOI1jS0w5zfLQ)
 ### 操作系统（主Linux）
   - `下载`
-    1. [现代操作系统第三版英文](https://pan.baidu.com/s/1dryVpoNlCyZeyAUhr7i8Lg)
+    1. [现代操作系统第三版英文](https://pan.baidu.com/s/1TZsyE45GTi68PmgYRLnrJw)--ekv2
     2. [鸟哥的LINUX私房菜：服务器架设篇 （第二版）](https://pan.baidu.com/s/1Mwlu12jYatrT_EGnjPfUNg)
 ### 重要协议(Http、TCP/IP)
   - `下载`
     1.[图解TCPIP(第5版).乌尼日其其格.扫描版](https://pan.baidu.com/s/1rPnpSqAwv6CaNha54mFnHQ)
-    2.[Http权威指南](https://pan.baidu.com/s/1MNCnCSsNiNiw-5C2ANgVAg)
+    2.[Http权威指南](https://pan.baidu.com/s/19NuptLCYXjZ7tmWhefjAFQ)--jjk6
 ### Netty
 ### Tomcat
 ### Mysql
@@ -35,7 +36,7 @@
     1. [21分钟MySQL入门教程](https://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html)
     2. [MySQL索引背后的数据结构及算法原理](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
   - `下载`
-    1. [深入浅出MySQL++数据库开发、优化与管理维护+第2版+唐汉明](https://pan.baidu.com/s/1yiEPSgSVKD9adVEZ_n2AEA)
+    1. [深入浅出MySQL++数据库开发、优化与管理维护+第2版+唐汉明](https://pan.baidu.com/s/1kmHLF7LIq2lWX8B1UqxTqw)--xqa2
 ### Nginx
   - `官网`
     http://nginx.org/en/
@@ -45,7 +46,7 @@
     1. [Nginx教程从入门到精通](https://pan.baidu.com/s/13GaHFGPFf1cbZpHCnZtEGA)
 ### 数据结构与算法
   - `下载`
-    1.[算法导论_原书第3版](https://pan.baidu.com/s/1Cak8-v3UBEyWe7HxtCo5rw)
+    1.[算法导论_原书第3版](https://pan.baidu.com/s/1Ng3IDM_q9Ti2n5bSRQqEWg)--wc6m
 
 ## 架构演进
   - `链接`
@@ -54,7 +55,7 @@
 ## 上古单体架构
 ### Servlet
   - `下载`
-    1.[Head First Servlet and JSP(高清中文)](https://pan.baidu.com/s/15mtGsTxXMwt1bWjTCbtfHQ)
+    1. [Head First Servlet and JSP(高清中文)](https://pan.baidu.com/s/15mtGsTxXMwt1bWjTCbtfHQ)
 ### Hibernate
 ### Struts2
 ### Spring
