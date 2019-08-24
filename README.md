@@ -56,9 +56,6 @@
   - `下载`
     1. [图解TCPIP(第5版).乌尼日其其格.扫描版](https://pan.baidu.com/s/1NE108QYOCoHKiTGK13syaQ)--e3tb
     2. [Http权威指南](https://pan.baidu.com/s/19NuptLCYXjZ7tmWhefjAFQ)--jjk6
-### Netty
-  - `下载`
-    1. [Netty权威指南带目录完整版](https://pan.baidu.com/s/1ceKIHhtLkalZxabvInATvQ) --futx
 ### Tomcat
 ### Mysql
   - `链接`
@@ -104,6 +101,9 @@
 
 ## 分布式朝代
 ### Spring Boot
+### Netty
+  - `下载`
+    1. [Netty权威指南带目录完整版](https://pan.baidu.com/s/1ceKIHhtLkalZxabvInATvQ) --futx
 ### Zookeeper
 ### Mq
 ### Redis
