@@ -14,7 +14,7 @@
 ### 设计模式
   -`链接`
     1. [图说设计模式](http://design-patterns.readthedocs.org/zh_CN/latest/index.html)
-    2. 
+    2. [设计模式Java版](https://quanke.gitbooks.io/design-pattern-java/content/)
   -`下载`
     1. [研磨设计模式](https://pan.baidu.com/s/1X4OZFxj293_yibxoC32jEA) 
 ### 网络
