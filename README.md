@@ -8,17 +8,25 @@
 
 ## Java董事会成员
 ### 设计模式
+  -`链接`
+  1. [图说设计模式](http://design-patterns.readthedocs.org/zh_CN/latest/index.html)
+  2. 
+  -`下载`
 ### Linux
 ### TCP/IP协议
 ### Netty
 ### Tomcat
 ### Mysql
 ### Nginx
+ - `官网`
+ - `链接`
+ 1. [Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
+ - `下载`
+ 1. [Nginx教程从入门到精通](https://pan.baidu.com/s/13GaHFGPFf1cbZpHCnZtEGA)
 
 ## 架构演进
-### Java技术基本功
-### 并发编程
-### JVM
+ - `链接`
+  1. [走向分布式](http://dcaoyuan.github.io/papers/pdfs/Scalability.pdf)
 
 ## 上古单体架构
 ### Hibernate
