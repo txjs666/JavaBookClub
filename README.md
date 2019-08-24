@@ -96,7 +96,7 @@
 ### Struts2
 ### Spring
   - `下载`
-    1.[Spring源码深度解析（第2版）](https://pan.baidu.com/s/185E2CbtZamp77uDHZ8yNCw)--nkax
+    1. [Spring源码深度解析（第2版）](https://pan.baidu.com/s/185E2CbtZamp77uDHZ8yNCw)--nkax
 ### SpringMVC
 ### Mybatis
   - `链接`
