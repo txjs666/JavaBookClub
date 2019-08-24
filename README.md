@@ -1,5 +1,5 @@
 # JavaLibrary
-本藏馆主要珍藏Java体系核心技术书籍：<br/>涵盖 [Java核心基石](#java核心基石)（[Java技术基本功](#Java技术基本功)，[并发编程](#并发编程)，[JVM](#jvm)）[Java董事会](#java董事会)（[设计模式](#设计模式)，[linux内核](#操作系统（主linux）)，[TCP/IP协议](#重要协议(Http、TCP/IP))，[Netty](#netty)，[Tomcat](#tomcat)，[Mysql](#mysql)） [架构演进](#架构演进) [上古单体架构](#上古单体架构) [分布式朝代](#分布式朝代) [微服务纪元](#微服务纪元) [云原生前沿](#云原生前沿)  [DevOps](#devops) [软件工程思想](#软件工程思想) [编码艺术](#编码艺术)
+本藏馆主要珍藏Java体系核心技术书籍：<br/>涵盖 [Java核心基石](#java核心基石)（[Java技术基本功](#Java技术基本功)，[并发编程](#并发编程)，[JVM](#jvm)）[Java董事会](#java董事会)（[设计模式](#设计模式)，[Linux](#linux)，[协议](#协议)，[Netty](#netty)，[Tomcat](#tomcat)，[Mysql](#mysql)） [架构演进](#架构演进) [上古单体架构](#上古单体架构) [分布式朝代](#分布式朝代) [微服务纪元](#微服务纪元) [云原生前沿](#云原生前沿)  [DevOps](#devops) [软件工程思想](#软件工程思想) [编码艺术](#编码艺术)
 
 ## Java核心基石
 ### java技术基本功
@@ -29,12 +29,18 @@
 ### 网络
   - `下载`
     1. [JSJWL计算机网络-自顶向下方法V6OCR-P565](https://pan.baidu.com/s/1pCPNpXcrWr-2hxO-qVO-uA)--1cmi
-### 操作系统（主Linux）
+### Linux
+  - `链接`
+    1. [理解Linux进程](https://tobegit3hub1.gitbooks.io/understanding-linux-processes/content/)
+    2. [Linux 命令行(中文版)](http://billie66.github.io/TLCL/book/)
+    3. [Linux 构建指南](http://www.jinbuguo.com/lfs/lfs62/index.html)
+    4. [Linux工具快速教程](https://linuxtools-rst.readthedocs.io/zh_CN/latest/)
+    5. [开源世界旅行手册](https://i.linuxtoy.org/docs/guide/index.html)
   - `下载`
     1. [现代操作系统第三版英文](https://pan.baidu.com/s/1TZsyE45GTi68PmgYRLnrJw)--ekv2
     2. [鸟哥的LINUX私房菜：服务器架设篇 （第二版）](https://pan.baidu.com/s/1g5NA-1YqT68HMGH--HTaSg)--r8f4
     3. [鸟哥的LINUX私房菜_基础学习篇(第三版)](https://pan.baidu.com/s/11Rx4u8LoeAqnmA6soLBCcg)--p7h8
-### 重要协议(Http、TCP/IP)
+### 协议
   - `下载`
     1. [图解TCPIP(第5版).乌尼日其其格.扫描版](https://pan.baidu.com/s/1NE108QYOCoHKiTGK13syaQ)--e3tb
     2. [Http权威指南](https://pan.baidu.com/s/19NuptLCYXjZ7tmWhefjAFQ)--jjk6
@@ -103,6 +109,7 @@
 ### Docker
   -  `链接`
     1. [Docker入门实战](https://yuedu.baidu.com/ebook/d817967416fc700abb68fca1?pn=1)
+    2. [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet/tree/master/zh-cn#docker-cheat-sheet)
 ### k8s
 
 ## 软件工程思想
