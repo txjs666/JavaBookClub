@@ -60,9 +60,8 @@
     2. [Http权威指南](https://pan.baidu.com/s/19NuptLCYXjZ7tmWhefjAFQ)--jjk6
 ### Tomcat
 
-- `下载`
-
-  ​		 1. [tomcat内核设计剖析](https://pan.baidu.com/s/1mabdHFyUW5Kbz3nz1h1xgg)  --pysk
+  - `下载`
+    1. [tomcat内核设计剖析](https://pan.baidu.com/s/1mabdHFyUW5Kbz3nz1h1xgg)  --pysk
 
 ### Mysql
   - `链接`
