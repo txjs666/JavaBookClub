@@ -3,6 +3,10 @@
 
 ## Java核心基石
 ### java技术基本功
+  - `链接`
+    1. [像计算机科学家一样思考（Java版）](http://www.ituring.com.cn/book/1978)
+    2. [On Java 8 中文版 (Java编程思想第五版)](https://lingcoder.github.io/OnJava8/#/README)
+    2. [java8 简明教程](https://github.com/biezhi/java-bible/blob/master/java8/java8-guide.md)
   - `下载`
     1. [Head First 面向对象分析与设计](https://pan.baidu.com/s/1IdFphvYSW4fbj3anRwk_5Q)--xim9
     2. [Head First Java第二版涵盖java5.0](https://pan.baidu.com/s/1BpwWHFRe4rJxoTB7Dah9bA)--rtyy
@@ -12,6 +16,7 @@
     6. [Java核心技术 卷II 高级特性(原书第9版)](https://pan.baidu.com/s/14EDrw3NIYhncrGyIbcUu9A)--qbgd
     7. [Effective Java中文版（第2版）](https://pan.baidu.com/s/1T8LwuPtiKsFlTlkchw7uwA)--x9gt
     8. [JAVA编程思想（第四版）答案](https://pan.baidu.com/s/1SiN9nJ8RowhuKoU6iL3xUQ)--jeng
+
 ### 并发编程
 ### JVM
   - `下载`
@@ -70,6 +75,8 @@
 
 ## 上古单体架构
 ### Servlet
+  - `链接`
+    1. [Java Servlet 3.1 规范](https://waylau.gitbooks.io/servlet-3-1-specification/)
   - `下载`
     1. [Head First Servlet and JSP(高清中文)](https://pan.baidu.com/s/1_WvesCNS1QdhCNtln2fmwQ)--4eg4
 ### Hibernate
@@ -77,6 +84,8 @@
 ### Spring
 ### SpringMVC
 ### Mybatis
+  - `链接`
+  1. [Mybatis 中文文档](http://www.mybatis.org/mybatis-3/zh/index.html)
 
 ## 分布式朝代
 ### Spring Boot
