@@ -112,6 +112,8 @@
     1. [Netty权威指南带目录完整版](https://pan.baidu.com/s/1ceKIHhtLkalZxabvInATvQ) --futx
 ### Zookeeper
 ### Mq
+  - `下载`
+    1. [深入理解Kafka 核心设计与实践原理](https://pan.baidu.com/s/1P24nwBz_2qHdR5kQPW7gvg)--1udd
 ### Redis
   - `源码`
     1. [Redis3.0源码注释版](https://github.com/huangz1990/redis-3.0-annotated)
