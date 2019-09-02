@@ -27,6 +27,7 @@
     4. [JAVA并发编程实践](https://pan.baidu.com/s/1obqs4CjfTlK1Pt3aGUmz-g)--pjd7
     5. [实战Java高并发程序设计](https://pan.baidu.com/s/1S7HhCbrfTtcj6ADf-8WEEw)--kxeg
     6. [java并发编程实战](https://pan.baidu.com/s/1pnAW9Q1XJr9ZMmjPYGmHNQ)--m5jp
+    7. [图解Java多线程设计模式](https://pan.baidu.com/s/10r-5OZJJ42vNQTICrX2z3Q)
 ### JVM
   - `下载`
     1. [深入理解Java虚拟机 JVM高级特性与最佳实践](https://pan.baidu.com/s/1G1C8w-ni74fYElMcxQpxfQ)--ia2c
@@ -101,6 +102,8 @@
   - `下载`
     1. [Spring源码深度解析（第2版）](https://pan.baidu.com/s/185E2CbtZamp77uDHZ8yNCw)--nkax
 ### SpringMVC
+  - `下载`
+    1. [看透springMvc源代码分析与实践](https://pan.baidu.com/s/1pAGfuXHgbruDL3Q0qCQjEA)
 ### Mybatis
   - `链接`
   1. [Mybatis 中文文档](http://www.mybatis.org/mybatis-3/zh/index.html)
@@ -111,6 +114,8 @@
   - `下载`
     1. [Netty权威指南带目录完整版](https://pan.baidu.com/s/1ceKIHhtLkalZxabvInATvQ) --futx
 ### Zookeeper
+  - `下载`
+    1. [从Paxos到Zookeeper  分布式一致性原理与实践](https://pan.baidu.com/s/1tcu4fxP3OJ5IVnyTQS33QQ)
 ### Mq
   - `下载`
     1. [深入理解Kafka 核心设计与实践原理](https://pan.baidu.com/s/1P24nwBz_2qHdR5kQPW7gvg)--1udd
