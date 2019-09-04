@@ -6,6 +6,7 @@
 ## Java核心基石
 ### java技术基本功
   - `链接`
+    0. 重要的事情说三遍 重要的事情说三遍 重要的事情说三遍 [JSR](https://github.com/Airxia/jsr)
     1. [像计算机科学家一样思考（Java版）](http://www.ituring.com.cn/book/1978)
     2. [On Java 8 中文版 (Java编程思想第五版)](https://lingcoder.github.io/OnJava8/#/README)
     2. [java8 简明教程](https://github.com/biezhi/java-bible/blob/master/java8/java8-guide.md)
