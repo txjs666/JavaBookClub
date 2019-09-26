@@ -1,4 +1,6 @@
 # JavaLibrary
+> 重磅推出：[Java体系知识图谱](https://pan.baidu.com/s/1W0IkqoiCZnAMgjCNvnnovg)，持续完善中。。。
+
 本藏馆主要珍藏Java体系核心技术书籍：<br/> [Java核心基石](#java核心基石)（[Java技术基本功](#Java技术基本功)，[并发编程](#并发编程)，[JVM](#jvm)）<br/>[Java董事会](#java董事会)（[设计模式](#设计模式)，[Linux](#linux)，[协议](#协议)，[Netty](#netty)，[Tomcat](#tomcat)，[Mysql](#mysql)） <br/>[架构演进](#架构演进) <br/>[上古单体架构](#上古单体架构) <br/>[分布式朝代](#分布式朝代) <br/>[微服务纪元](#微服务纪元) <br/>[云原生前沿](#云原生前沿)  <br/>[DevOps](#devops) <br/>[软件工程思想](#软件工程思想) <br/>[编码艺术](#编码艺术)
 > 友链：
   1.学习技术也可以超级超级超级有趣：[欧姆社](https://pan.baidu.com/s/1tyuaSADDvotqD4-X4r0Rxg)--r7t2
@@ -6,7 +8,7 @@
 ## Java核心基石
 ### java技术基本功
   - `链接`
-    0. 重要的事情说三遍 重要的事情说三遍 重要的事情说三遍 [JSR](https://github.com/Airxia/jsr)
+    0. 重要的事情说三遍 重要的事情说三遍 重要的事情说三遍 [JAR-SR](https://github.com/Airxia/jsr)
     1. [像计算机科学家一样思考（Java版）](http://www.ituring.com.cn/book/1978)
     2. [On Java 8 中文版 (Java编程思想第五版)](https://lingcoder.github.io/OnJava8/#/README)
     2. [java8 简明教程](https://github.com/biezhi/java-bible/blob/master/java8/java8-guide.md)
