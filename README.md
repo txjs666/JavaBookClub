@@ -47,6 +47,7 @@
 ### 网络
   - `下载`
     1. [JSJWL计算机网络-自顶向下方法V6OCR-P565](https://pan.baidu.com/s/1pCPNpXcrWr-2hxO-qVO-uA)--1cmi
+    2. [网络是怎么连接的](https://pan.baidu.com/s/1PFwgOuWmhEkaFiFvz8dnbw)
 ### Linux
   - `链接`
     1. [理解Linux进程](https://tobegit3hub1.gitbooks.io/understanding-linux-processes/content/)
