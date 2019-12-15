@@ -1,3 +1,6 @@
+关注微信公众号:[java书友会](https://raw.githubusercontent.com/Alvin33/images/master/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%9B%BE%E7%89%871.png)
+获取更多好文。
+
 # JavaLibrary
 > 重磅推出：[Java体系知识图谱](https://pan.baidu.com/s/1-se-Fd5sVYR4Q9IjBIrGkQ)，持续完善中。。。
 
@@ -184,3 +187,4 @@
 说明：
     此处资源均来自网络或者读者分享，如果您发现对你的权益造成伤害，请第一时间联系作者(微信：wt0501171x)，我会第一时间进行删除。希望大家能多点点星，让更多的JavaSir一起参与建设。
     <br/>java架构交流群(957575865) java求职招聘群(676573778) 欢迎大家一起前来交流学习~
+
