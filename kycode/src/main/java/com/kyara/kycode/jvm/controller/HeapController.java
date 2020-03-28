@@ -1,3 +1,4 @@
+
 package com.kyara.kycode.jvm.controller;
 
 import com.kyara.kycode.jvm.domain.User;
@@ -23,6 +24,7 @@ public class HeapController {
         while(true){
             list.add(new User());
             Thread.sleep(1);
+//            Thread.sleep(1);
         }
     }
 

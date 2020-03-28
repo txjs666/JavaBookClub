@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <!--提供方信息-->
+    <dubbo:application name="dubbo-server" owner ="jarluo" />
+    <!--注册中心-->
+    <dubbo:registry address="zookeeper://192.168.1.11:2181" />
+    <!--协议-->
+    <dubbo:protocol name="dubbo" port="20880" />
+
+    <!--服务-->
+    <dubbo:service interface="com.jarluo.dubbo.IJarLuoHello" scope="" ref="jarluoHelloService" />
+    <bean id="jarluoHelloService" class="com.jarluo.dubbo.JarluoHelloImpl" />
+
+</beans>
