@@ -18,35 +18,37 @@ public class DeadLockDemo {
     }
 
 }
+
 //定义锁对象
-class MyLock{
+class MyLock {
     public static Object object1 = new Object();
     public static Object object2 = new Object();
 }
 
-class DeadLock implements Runnable{
+class DeadLock implements Runnable {
     private boolean flag;
-    DeadLock(boolean flag){
-        this.flag=flag;
+
+    DeadLock(boolean flag) {
+        this.flag = flag;
     }
 
     @Override
     public void run() {
-        if (flag){
-            while (true){
-                synchronized(MyLock.object1){
-                    System.out.println(Thread.currentThread().getName()+"--if获得object1锁");
-                    synchronized (MyLock.object2){
-                        System.out.println(Thread.currentThread().getName()+"--if获得object2锁");
+        if (flag) {
+            while (true) {
+                synchronized (MyLock.object1) {
+                    System.out.println(Thread.currentThread().getName() + "--if获得object1锁");
+                    synchronized (MyLock.object2) {
+                        System.out.println(Thread.currentThread().getName() + "--if获得object2锁");
                     }
                 }
             }
-        }else{
-            while (true){
-                synchronized(MyLock.object2){
-                    System.out.println(Thread.currentThread().getName()+"--if获得object2锁");
-                    synchronized (MyLock.object1){
-                        System.out.println(Thread.currentThread().getName()+"--if获得object1锁");
+        } else {
+            while (true) {
+                synchronized (MyLock.object2) {
+                    System.out.println(Thread.currentThread().getName() + "--if获得object2锁");
+                    synchronized (MyLock.object1) {
+                        System.out.println(Thread.currentThread().getName() + "--if获得object1锁");
                     }
                 }
             }

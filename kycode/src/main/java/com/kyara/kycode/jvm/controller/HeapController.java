@@ -21,7 +21,7 @@ public class HeapController {
 
     @GetMapping("/heap")
     public String heap() throws InterruptedException {
-        while(true){
+        while (true) {
             list.add(new User());
             Thread.sleep(1);
 //            Thread.sleep(1);

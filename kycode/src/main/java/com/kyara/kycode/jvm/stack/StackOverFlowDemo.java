@@ -9,7 +9,8 @@ package com.kyara.kycode.jvm.stack;
  */
 public class StackOverFlowDemo {
     public static long count = 0;
-    public static void method(long i){
+
+    public static void method(long i) {
         System.out.println(count++);
         method(i);
     }

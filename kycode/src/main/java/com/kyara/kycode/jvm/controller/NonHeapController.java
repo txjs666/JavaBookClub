@@ -15,7 +15,7 @@ public class NonHeapController {
     List<Class<?>> list = Lists.newArrayList();
 
     public String heap() throws InterruptedException {
-        while(true){
+        while (true) {
 //            list.addAll(MetaspaceUtil.createClasses());
             Thread.sleep(5);
         }
