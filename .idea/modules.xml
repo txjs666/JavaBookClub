@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaBookClub.iml" filepath="$PROJECT_DIR$/.idea/JavaBookClub.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-client/dubbo-client.iml" filepath="$PROJECT_DIR$/dubbo-client/dubbo-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-server/dubbo-server.iml" filepath="$PROJECT_DIR$/dubbo-server/dubbo-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kycode/kycode.iml" filepath="$PROJECT_DIR$/kycode/kycode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halfApe/halfApe.iml" filepath="$PROJECT_DIR$/halfApe/halfApe.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-server/server-api/server-api.iml" filepath="$PROJECT_DIR$/dubbo-server/server-api/server-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-server/server-provider/server-provider.iml" filepath="$PROJECT_DIR$/dubbo-server/server-provider/server-provider.iml" />
     </modules>
