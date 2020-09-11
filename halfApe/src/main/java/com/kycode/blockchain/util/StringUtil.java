@@ -2,9 +2,12 @@ package com.kycode.blockchain.util;
 
 
 import com.google.gson.GsonBuilder;
+import com.kycode.blockchain.tx.Transaction;
 
 import java.security.*;
+import java.util.ArrayList;
 import java.util.Base64;
+import java.util.List;
 
 
 /**
@@ -58,6 +61,7 @@ public class StringUtil {
     public static String getDifficultyString(int difficulty) {
         return new String(new char[difficulty]).replace('\0', '0');
     }
+
     /**
      * @Description: 应用签名
      * @Author: halfApe
@@ -76,14 +80,14 @@ public class StringUtil {
             byte[] realSign = dsa.sign();
             output = realSign;
         } catch (Exception e) {
-           throw new RuntimeException();
+            throw new RuntimeException();
         }
         return output;
     }
 
-    public static boolean verifyECDSASig(PublicKey publicKey,String data,byte[] signature){
+    public static boolean verifyECDSASig(PublicKey publicKey, String data, byte[] signature) {
         try {
-            Signature ecdsaVerify  = Signature.getInstance("ECDSA", "BC");
+            Signature ecdsaVerify = Signature.getInstance("ECDSA", "BC");
             ecdsaVerify.initVerify(publicKey);
             ecdsaVerify.update(data.getBytes());
             return ecdsaVerify.verify(signature);
@@ -103,5 +107,28 @@ public class StringUtil {
         return Base64.getEncoder().encodeToString(key.getEncoded());
     }
 
-
+    /**
+     * @Description: 处理交易数组并返回默克尔树root
+     * @Author: halfApe
+     * @Date: 2020/9/11 11:10
+     * @Parameter * @param null:
+     * @Return * @return: null
+     **/
+    public static String getMerkleRoot(List<Transaction> transactions) {
+        int count = transactions.size();
+        ArrayList<String> previousTreeLayer = new ArrayList<>();
+        for (Transaction transaction : transactions) {
+            previousTreeLayer.add(transaction.getTransactionId());
+        }
+        ArrayList<String> treeLayer = previousTreeLayer;
+        while (count > 1) {
+            treeLayer  = new ArrayList<>();
+            for (int i = 0; i < previousTreeLayer.size(); i++) {
+                treeLayer.add(applySha256(previousTreeLayer.get(i-1) + previousTreeLayer.get(i)));
+            }
+            count = treeLayer.size();
+            previousTreeLayer = treeLayer;
+        }
+        return treeLayer.size() == 1 ? treeLayer.get(0) : "";
+    }
 }

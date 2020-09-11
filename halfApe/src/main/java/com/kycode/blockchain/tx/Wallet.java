@@ -45,9 +45,9 @@ public class Wallet {
     /**
      * @Description: 返回余额并存储此钱包拥有的UTXO
      * @Author: halfApe
-     * @Date: 2020/9/11 10:23
-     * @Parameter * @param null:
-     * @Return * @return: null
+     * @Date: 2020/9/11 14:30
+     * @Parameter []
+     * @Return java.math.BigDecimal
      **/
     public BigDecimal getBalance() {
         BigDecimal total = BigDecimal.ZERO;
@@ -55,7 +55,7 @@ public class Wallet {
             TransactionOutput UTXO = item.getValue();
             if (UTXO.isMine(publicKey)) {
                 UTXOs.put(UTXO.getId(), UTXO);
-                total.add(UTXO.getValue());
+                total = total.add(UTXO.getValue());
             }
         }
         return total;
@@ -78,7 +78,7 @@ public class Wallet {
         BigDecimal total = BigDecimal.ZERO;
         for (Map.Entry<String, TransactionOutput> item : UTXOs.entrySet()) {
             TransactionOutput UTXO = item.getValue();
-            total.add(UTXO.getValue());
+            total = total.add(UTXO.getValue());
             inputs.add(new TransactionInput(UTXO.getId()));
             if (total.compareTo(value) == 1) break;
         }

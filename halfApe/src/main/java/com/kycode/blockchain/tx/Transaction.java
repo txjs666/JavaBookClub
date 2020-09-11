@@ -2,6 +2,7 @@ package com.kycode.blockchain.tx;
 
 import com.kycode.blockchain.chain.NoobChain;
 import com.kycode.blockchain.util.StringUtil;
+import lombok.Data;
 
 import java.math.BigDecimal;
 import java.security.PrivateKey;
@@ -15,6 +16,7 @@ import java.util.List;
  * @author: weitong@zccp.com
  * @date: 2020/09/10 13:55
  **/
+@Data
 public class Transaction {
     //交易hash
     private String transactionId;
@@ -86,7 +88,7 @@ public class Transaction {
         }
 
         //生成交易输出
-        BigDecimal leftOver = getOutputsValue().subtract(value);
+        BigDecimal leftOver = getInputsValue().subtract(value);
         transactionId = calculateHash();
         //send value to recipient
         outputs.add(new TransactionOutput(this.recipient,value,transactionId));
@@ -120,7 +122,7 @@ public class Transaction {
             if(in.getUTXO() == null){
                 continue;
             }
-            total.add(in.getUTXO().getValue());
+            total = total.add(in.getUTXO().getValue());
         }
         return total;
     }
@@ -134,7 +136,7 @@ public class Transaction {
     public BigDecimal getOutputsValue(){
         BigDecimal total = BigDecimal.ZERO;
         for (TransactionOutput out : outputs) {
-            total.add(out.getValue());
+            total = total.add(out.getValue());
         }
         return total;
     }
