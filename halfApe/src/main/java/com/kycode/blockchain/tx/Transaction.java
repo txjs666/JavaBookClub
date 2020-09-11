@@ -42,17 +42,19 @@ public class Transaction {
         this.inputs = inputs;
     }
 
-    private String calculateHash(){
+    private String calculateHash() {
         sequence++;
         return StringUtil.applySha256(new StringBuffer().append(StringUtil.getStringFromKey(sender))
-                                                        .append(StringUtil.getStringFromKey(recipient))
-                                                        .append(value)
-                                                        .append(sequence).toString());
+                .append(StringUtil.getStringFromKey(recipient))
+                .append(value)
+                .append(sequence).toString());
     }
-    public void generateSignature(PrivateKey privateKey){
+
+    public void generateSignature(PrivateKey privateKey) {
         signature = StringUtil.applyECDSASignature(privateKey,
-                    StringUtil.getStringFromKey(sender)+StringUtil.getStringFromKey(recipient)+value);
+                StringUtil.getStringFromKey(sender) + StringUtil.getStringFromKey(recipient) + value);
     }
+
     /**
      * @Description: 验证签名
      * @Author: halfApe
@@ -60,11 +62,12 @@ public class Transaction {
      * @Parameter []
      * @Return boolean
      **/
-    public boolean verifySignature(){
+    public boolean verifySignature() {
         return StringUtil.verifyECDSASig(sender,
-                                   StringUtil.getStringFromKey(sender)+StringUtil.getStringFromKey(recipient)+value
-                                         ,signature);
+                StringUtil.getStringFromKey(sender) + StringUtil.getStringFromKey(recipient) + value
+                , signature);
     }
+
     /**
      * @Description: Returns true if new transaction could be created.
      * @Author: halfApe
@@ -72,18 +75,18 @@ public class Transaction {
      * @Parameter []
      * @Return boolean
      **/
-    public boolean processTransaction(){
+    public boolean processTransaction() {
         if (verifySignature() == false) {
             System.out.println("#Transaction Signature failed to verify");
             return false;
         }
         //汇总交易输入（确保他们是未花费的）
-        for (TransactionInput in: inputs) {
+        for (TransactionInput in : inputs) {
             in.setUTXO(NoobChain.UTXOs.get(in.getTransactionOutputId()));
         }
         //校验交易是否是有效的
-        if(getInputsValue().compareTo(NoobChain.minimumTransaction) == -1){
-            System.out.println("#Transaction is to small:"+getInputsValue());
+        if (getInputsValue().compareTo(NoobChain.minimumTransaction) == -1) {
+            System.out.println("#Transaction is to small:" + getInputsValue());
             return false;
         }
 
@@ -91,12 +94,12 @@ public class Transaction {
         BigDecimal leftOver = getInputsValue().subtract(value);
         transactionId = calculateHash();
         //send value to recipient
-        outputs.add(new TransactionOutput(this.recipient,value,transactionId));
+        outputs.add(new TransactionOutput(this.recipient, value, transactionId));
         //send the left over 'change' back to sender
         outputs.add(new TransactionOutput(this.sender, leftOver, transactionId));
 
         //add outputs to Unspent list
-        for (TransactionOutput out: outputs) {
+        for (TransactionOutput out : outputs) {
             NoobChain.UTXOs.put(out.getId(), out);
         }
 
@@ -108,6 +111,7 @@ public class Transaction {
         }
         return true;
     }
+
     /**
      * @Description: 返回所有的交易输入inputs(UTXOs)
      * @Author: halfApe
@@ -115,17 +119,18 @@ public class Transaction {
      * @Parameter []
      * @Return float
      **/
-    public BigDecimal getInputsValue(){
+    public BigDecimal getInputsValue() {
         BigDecimal total = BigDecimal.ZERO;
         for (TransactionInput in : inputs) {
             //如果没有交易则跳过
-            if(in.getUTXO() == null){
+            if (in.getUTXO() == null) {
                 continue;
             }
             total = total.add(in.getUTXO().getValue());
         }
         return total;
     }
+
     /**
      * @Description: 获取所有的输出
      * @Author: halfApe
@@ -133,14 +138,13 @@ public class Transaction {
      * @Parameter []
      * @Return java.math.BigDecimal
      **/
-    public BigDecimal getOutputsValue(){
+    public BigDecimal getOutputsValue() {
         BigDecimal total = BigDecimal.ZERO;
         for (TransactionOutput out : outputs) {
             total = total.add(out.getValue());
         }
         return total;
     }
-
 
 
 }
