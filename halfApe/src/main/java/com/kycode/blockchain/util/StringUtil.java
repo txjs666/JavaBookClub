@@ -96,7 +96,7 @@ public class StringUtil {
      * @Description:
      * @Author: halfApe
      * @Date: 2020/9/10 14:23
-     * @Parameter [key]
+     * @Parameter [reciepient]
      * @Return java.lang.String
      **/
     public static String getStringFromKey(Key key) {

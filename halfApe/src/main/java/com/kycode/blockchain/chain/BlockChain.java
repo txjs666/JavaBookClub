@@ -1,4 +1,4 @@
-package com.kycode.blockchain;
+package com.kycode.blockchain.chain;
 
 
 import com.kycode.blockchain.util.StringUtil;

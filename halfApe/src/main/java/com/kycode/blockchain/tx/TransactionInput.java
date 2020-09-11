@@ -1,4 +1,6 @@
-package com.kycode.blockchain;
+package com.kycode.blockchain.tx;
+
+import lombok.Data;
 
 /**
  * @version: 1.0
@@ -6,12 +8,16 @@ package com.kycode.blockchain;
  * @author: halfApe
  * @date: 2020/09/10 14:04
  **/
+@Data
 public class TransactionInput {
     //Reference to TransactionOutputs -> transactionId
-    public String transactionId;
+    private String transactionOutputId;
     //区别于基于账户的设计 未花费过的交易输出
-    public TransactionOutput UTXO;
+    private TransactionOutput UTXO;
 
-    public TransactionInput() {
+    public TransactionInput(String transactionOutputId) {
+        this.transactionOutputId = transactionOutputId;
     }
+
+
 }
