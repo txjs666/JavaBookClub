@@ -76,7 +76,7 @@ public class NoobChain {
         Block block3 = new Block(block2.hash);
         System.out.println("\nWalletA‘s balance is:" + walletA.getBalance());
         System.out.println("\nWalletA‘s Attempting to send funds(20) to WalletB...");
-        block1.addTransaction(walletA.sendFunds(walletB.getPublicKey(), new BigDecimal(20)));
+        block1.addTransaction(walletB.sendFunds(walletA.getPublicKey(), new BigDecimal(20)));
         addBlock(block3);
         System.out.println("\nWalletA's balance is:" + walletA.getBalance());
         System.out.println("WalletB's balance is:" + walletB.getBalance());
