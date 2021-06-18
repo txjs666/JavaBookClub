@@ -1,4 +1,4 @@
-关注微信公众号:[通学java](#javaBookClub)
+关注微信公众号:[通学技术](#javaBookClub)
 获取更多好文。
 
 # JavaBookClub
@@ -22,5 +22,5 @@
     此处资源均来自网络或者读者分享，如果您发现对你的权益造成伤害，请第一时间联系作者(微信：18557520188)，我会第一时间进行删除。希望大家能多点点星，让更多的JavaSir一起参与建设。
     也可以加我微信好友，我拉你进优质java架构技术微信交流群。
     <br/>java架构交流群(957575865) java求职招聘群(676573778) 欢迎大家一起前来交流学习~
-关注公众号:<span id="javaBookClub">通学java</span>
+关注公众号:<span id="javaBookClub">通学技术</span>
 ![](https://raw.githubusercontent.com/Alvin33/images/master/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%9B%BE%E7%89%871.png)
