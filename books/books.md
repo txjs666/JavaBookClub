@@ -1,4 +1,4 @@
-关注微信公众号:[通学java](https://raw.githubusercontent.com/Alvin33/images/master/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%9B%BE%E7%89%871.png)
+关注微信公众号:[通学技术](https://raw.githubusercontent.com/Alvin33/images/master/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%9B%BE%E7%89%871.png)
 获取更多好文。
 
 # JavaLibrary
