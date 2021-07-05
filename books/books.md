@@ -1,5 +1,4 @@
-关注微信公众号:[通学技术](https://raw.githubusercontent.com/Alvin33/images/master/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%9B%BE%E7%89%871.png)
-获取更多好文。
+关注微信公众号:【通学技术】，获取更多好文。
 
 # JavaLibrary
 > 重磅推出：[Java体系知识图谱](https://pan.baidu.com/s/1-se-Fd5sVYR4Q9IjBIrGkQ)，持续完善中。。。
